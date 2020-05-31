@@ -1,0 +1,43 @@
+
+# I was a bit lazy so I decided to only do the ones that I felt I wasnt completely comfortable with
+
+
+#Modules
+import random
+
+#Functions
+def jkfnskfen():
+	print('bruh')
+
+#Dictionaries
+phone_numbers = {'Bob': 999-999-9999, 'Steve': 999999999}
+
+#List comprehensions
+x = [1,2,3,4,5]
+my_list = [i for i in x]
+
+#Object Oriented:
+class dogs:
+	def bark(self):
+		print('bark')
+
+d = dog()
+d.bark()   #Should print bark
+
+#Unpacking
+def numlist(x,y,z):
+	print('%s,%s,%s'% x,y,z)
+
+num = [1,2,3]
+numlist(*num)
+
+# args/kwargs
+def number(*x)
+	print(x)
+
+# Type annotations
+num: int = 10
+word: str = 'hello'
+
+
+	
